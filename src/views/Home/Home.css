@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+}
+.app-title{
+    text-align: center;
+    color: red;
+    font-size: 60px; 
+}
+.App-body{
+display: flex;
+justify-content: space-around;
+}
+
+.show-contact{
+    width: 400px;
+}
+
+.sub-heading{
+    text-align: center;
+    font-size: 30px;
+}
+
+.user-input{
+    display: block;
+    font-size: 25px;
+    padding: 5px;
+    margin: 30px;
+    width: 350px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+}
+.btn-add-contact{
+    display: block;
+    background-color: blue;
+    color: white;
+    margin: 30px auto;
+    font-size: 15px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
